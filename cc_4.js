@@ -47,6 +47,12 @@ for (let property in employee) {
 let products = ["Cheeseburger", "Milkshake", "Fries"]
 
 for (let element of products) {
-    console.log(`${element}`)
+    console.log(element)
 }
 //Task 6 - Product Listing
+
+let orders = [123, 456, 789]
+orders.forEach(element => {
+    console.log(`Order ID: ${element}`)
+})
+//Task 7 - Order Processing
