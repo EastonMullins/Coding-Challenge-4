@@ -17,7 +17,7 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i];
 }
 
-console.log (`Total Sales: $${totalSales}`);
+console.log(`Total Sales: $${totalSales}`);
 //Task 2 - Sales Report
 
 let stock = 10;
@@ -26,3 +26,10 @@ while (stock > 0) {
     stock--;
 }
 //Task 3 - Inventory Depletion
+
+let responses = 0;
+do {
+    console.log(`Number of responses: ${responses}`);
+    responses++;
+} while (responses < 4);
+//Task 4 - Customer Survery
