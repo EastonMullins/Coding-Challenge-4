@@ -8,3 +8,14 @@ if (purchaseamount > 100) {
 }
 console.log(`Final amount after discount: $${finalAmount}`);
 //Task 1 - Customer Discounts
+
+let sales = [200, 130, 210, 140, 80];
+let totalSales = 0;
+
+for (let i = 0; i < sales.length; i++) {
+
+    totalSales += sales[i];
+}
+
+console.log (`Total Sales: $${totalSales}`);
+//Task 2 - Sales Report
