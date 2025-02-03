@@ -44,17 +44,17 @@ for (let property in employee) {
 }
 //Task 5 - Employee Information
 
-let products = ["Cheeseburger", "Milkshake", "Fries"]
+let products = ["Cheeseburger", "Milkshake", "Fries"];
 
 for (let element of products) {
-    console.log(element)
+    console.log(element);
 }
 //Task 6 - Product Listing
 
-let orders = [123, 456, 789]
+let orders = [123, 456, 789];
 orders.forEach(element => {
-    console.log(`Order ID: ${element}`)
-})
+    console.log(`Order ID: ${element}`);
+});
 //Task 7 - Order Processing
 
 function calculateTax(amount) {
@@ -62,3 +62,9 @@ function calculateTax(amount) {
 }
 console.log(`Calculated tax: ${calculateTax(500)}`);
 //Task 8 - Tax Calculation
+
+function applyDiscount(amount, rate) {
+    return amount * (1- rate);
+}
+console.log(`Discounted Price: ${applyDiscount(250,0.15)}`);
+//Task 9 - Discount Application
