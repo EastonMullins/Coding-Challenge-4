@@ -19,3 +19,10 @@ for (let i = 0; i < sales.length; i++) {
 
 console.log (`Total Sales: $${totalSales}`);
 //Task 2 - Sales Report
+
+let stock = 10;
+while (stock > 0) {
+    console.log(`Stock Available: ${stock}`);
+    stock--;
+}
+//Task 3 - Inventory Depletion
