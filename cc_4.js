@@ -60,11 +60,15 @@ orders.forEach(element => {
 function calculateTax(amount) {
     return amount * 0.2;
 }
-console.log(`Calculated tax: ${calculateTax(500)}`);
+console.log(`Calculated tax: $${calculateTax(500)}`);
 //Task 8 - Tax Calculation
 
 function applyDiscount(amount, rate) {
     return amount * (1- rate);
 }
-console.log(`Discounted Price: ${applyDiscount(250,0.15)}`);
+console.log(`Discounted Price: $${applyDiscount(250,0.15)}`);
 //Task 9 - Discount Application
+
+const calculatePoints = (amount) => amount / 10;
+console.log(`Points Earned: ${calculatePoints(500)}`);
+//Task 10 - Loyalty Points
