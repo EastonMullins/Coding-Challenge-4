@@ -33,3 +33,13 @@ do {
     responses++;
 } while (responses < 4);
 //Task 4 - Customer Survery
+
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+}
+for (let property in employee) {
+    console.log(`${property}: ${employee[property]}`);
+}
+//Task 5 - Employee Information
