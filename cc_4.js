@@ -56,3 +56,9 @@ orders.forEach(element => {
     console.log(`Order ID: ${element}`)
 })
 //Task 7 - Order Processing
+
+function calculateTax(amount) {
+    return amount * 0.2;
+}
+console.log(`Calculated tax: ${calculateTax(500)}`);
+//Task 8 - Tax Calculation
