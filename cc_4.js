@@ -43,3 +43,10 @@ for (let property in employee) {
     console.log(`${property}: ${employee[property]}`);
 }
 //Task 5 - Employee Information
+
+let products = ["Cheeseburger", "Milkshake", "Fries"]
+
+for (let element of products) {
+    console.log(`${element}`)
+}
+//Task 6 - Product Listing
